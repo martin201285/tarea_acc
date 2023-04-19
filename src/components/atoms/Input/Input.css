@@ -1,0 +1,11 @@
+input {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(236, 235, 235);
+    border: 1px solid black;
+}
+
+::placeholder {
+    font-size: 16px;
+    text-align: center;
+}
