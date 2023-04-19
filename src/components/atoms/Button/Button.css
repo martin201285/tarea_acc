@@ -1,0 +1,17 @@
+button {
+    width: 120px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.orange {
+    background-color: rgb(250, 129, 0);
+    color: white;
+}
+
+.orange:active {
+    background-color: rgb(205, 108, 4);
+}
