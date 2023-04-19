@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+}
+
+.loginContainer__title h2 {
+    margin-top: 0;
 }
 
 .loginContainer__inputs {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 20px 60px 0 60px;
+    gap: 20px;
+    padding: 20px 60px;
 }

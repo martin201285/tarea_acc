@@ -1,6 +1,7 @@
 import React from 'react'
 import { Subtitle } from '../../atoms/Subtitle/Subtitle'
 import { Input } from '../../atoms/Input/Input'
+import "./Login.css";
 
 export const Login = ({text}) => {
     return (
