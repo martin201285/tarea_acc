@@ -12,12 +12,12 @@ export const Initial = () => {
 
   return (
     <div className='container'>
-        <div>
-            <Title name={"TASI"} location={"left"}/>
-        </div>
-        <div>
-            <InitialScreen />
-        </div>
+      <div>
+        <Title name={"Cajero Autómatico TASI"} location={"left"}/>
+      </div>
+      <div>
+        <InitialScreen />
+      </div>
     </div>
   )
 }

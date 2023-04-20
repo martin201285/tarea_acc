@@ -1,5 +1,5 @@
 button {
-    width: 120px;
+    width: 122px;
     padding: 20px;
     font-size: 16px;
     font-weight: 600;
@@ -7,20 +7,40 @@ button {
     cursor: pointer;
 }
 
-.orange {
+.orange--sm {
     background-color: rgb(250, 129, 0);
     color: white;
 }
 
-.orange:active {
+.orange--sm:active {
     background-color: rgb(205, 108, 4);
 }
 
-.grey {
+.orange--lg {
+    background-color: rgb(250, 129, 0);
+    color: white;
+    width: 200px;
+}
+
+.orange--lg:active {
+    background-color: rgb(205, 108, 4);
+}
+
+.grey--sm {
     background-color: rgb(122, 122, 122);
     color: white;
 }
 
-.grey:active {
+.grey--sm:active {
+    background-color: rgb(104, 104, 104);
+}
+
+.grey--lg {
+    background-color: rgb(122, 122, 122);
+    color: white;
+    width: 200px;
+}
+
+.grey--lg:active {
     background-color: rgb(104, 104, 104);
 }

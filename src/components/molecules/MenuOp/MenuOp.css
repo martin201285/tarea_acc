@@ -1,0 +1,12 @@
+.menuOp__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.buttons__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}

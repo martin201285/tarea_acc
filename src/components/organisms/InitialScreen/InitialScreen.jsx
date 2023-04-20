@@ -13,7 +13,7 @@ export const InitialScreen = () => {
   return (
     <div className='container__section'>
       <Login text={"Ingrese DNI y clave"}/>
-      <Keypad color={"orange"}/>
+      <Keypad color={"orange--sm"}/>
     </div>
   )
 }
