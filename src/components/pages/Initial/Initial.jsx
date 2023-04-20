@@ -18,6 +18,6 @@ export const Initial = () => {
         <div>
             <InitialScreen />
         </div>
-  </div>
+    </div>
   )
 }
