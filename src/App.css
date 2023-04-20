@@ -19,15 +19,3 @@
   flex-wrap: wrap;
   align-content: center;
 }
-
-.container__greetings {
-  display: flex;
-  flex-direction: row;
-}
-
-.container__section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}

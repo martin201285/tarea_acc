@@ -27,4 +27,4 @@ export const Keypad = ({color}) => {
         </div>
       </div>
     )
-  }
+}

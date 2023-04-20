@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Title.css";
 
-export const Title = ({name}) => {
+export const Title = ({name, location}) => {
   return (
-    <h1>Cajero Autómatico {name}</h1>
+    <h1 className={location}>Cajero Autómatico {name}</h1>
   )
 }

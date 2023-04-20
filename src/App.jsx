@@ -1,21 +1,25 @@
 import { Title } from './components/atoms/Title/Title'
-import { Login } from './components/molecules/Login/Login'
-import { Keypad } from './components/molecules/Keypad/Keypad'
+import { InitialScreen } from './components/organisms/InitialScreen/InitialScreen'
 import './App.css'
 
 function App() {
   
   return (
+    /* 
+      name= free string
+      location= "left", "center" or "right"
+    */
+
     <div className='container'>
-      <div className='container__greetings'>
-        <Title name={"TASI"}/>
+      <div>
+        <Title name={"TASI"} location={"left"}/>
       </div>
-      <div className='container__section'>
-        <Login text={"Ingrese DNI y clave"}/>
-        <Keypad color={"orange"}/>
+      <div>
+        <InitialScreen />
       </div>
     </div>
   )
 }
 
 export default App
+
