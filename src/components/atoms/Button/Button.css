@@ -15,3 +15,12 @@ button {
 .orange:active {
     background-color: rgb(205, 108, 4);
 }
+
+.grey {
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+.grey:active {
+    background-color: rgb(104, 104, 104);
+}

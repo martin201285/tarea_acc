@@ -6,16 +6,3 @@
   display: flex;
   justify-content: center;
 }
-
-.container {
-  max-width: 900px;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  padding: 35px;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  flex-wrap: wrap;
-  align-content: center;
-}
